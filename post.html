@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InternCrate – Post Internship/Project</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <!-- Header/Navbar -->
+  <header class="navbar">
+    <div class="container nav-flex">
+      <a href="index.html" class="logo"><i class="fa-solid fa-box"></i> InternCrate</a>
+      <nav>
+        <a href="listings.html">Listings</a>
+        <a href="post.html">Post</a>
+        <button id="theme-toggle" aria-label="Toggle dark/light mode"><i class="fa-solid fa-moon"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Post Form Section -->
+  <main class="container post-form-section">
+    <h2>Post a New Internship/Project</h2>
+    <form id="post-form" autocomplete="off">
+      <label>Title <input type="text" name="title" required></label>
+      <label>Description <textarea name="description" rows="3" required></textarea></label>
+      <label>Skills (comma-separated) <input type="text" name="skills" required placeholder="e.g. JavaScript, Python"></label>
+      <label>Duration (in weeks) <input type="number" name="duration" min="1" required></label>
+      <label>Mode
+        <select name="mode" required>
+          <option value="Remote">Remote</option>
+          <option value="Onsite">Onsite</option>
+        </select>
+      </label>
+      <label>Posted By <input type="text" name="poster" required></label>
+      <button type="submit" class="cta-btn">Submit</button>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-flex">
+      <span>&copy; 2025 InternCrate</span>
+      <div>
+        <a href="#">About</a> | <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

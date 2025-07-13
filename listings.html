@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InternCrate – Listings</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <!-- Header/Navbar -->
+  <header class="navbar">
+    <div class="container nav-flex">
+      <a href="index.html" class="logo"><i class="fa-solid fa-box"></i> InternCrate</a>
+      <nav>
+        <a href="listings.html">Listings</a>
+        <a href="post.html">Post</a>
+        <button id="theme-toggle" aria-label="Toggle dark/light mode"><i class="fa-solid fa-moon"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Filter/Search Bar -->
+  <section class="filter-bar container">
+    <input type="text" id="search-input" placeholder="Search by title...">
+    <select id="skill-filter">
+      <option value="">All Skills</option>
+      <option value="JavaScript">JavaScript</option>
+      <option value="Python">Python</option>
+      <option value="Java">Java</option>
+      <option value="C++">C++</option>
+      <option value="React">React</option>
+      <option value="Node.js">Node.js</option>
+    </select>
+    <select id="sort-filter">
+      <option value="newest">Newest</option>
+      <option value="shortest">Shortest Duration</option>
+    </select>
+  </section>
+
+  <!-- Listings Section -->
+  <main class="container">
+    <div id="listings" class="listings-grid">
+      <!-- Internship cards will be injected here by JS -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-flex">
+      <span>&copy; 2025 InternCrate</span>
+      <div>
+        <a href="#">About</a> | <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "id-1",
+    "title": "Frontend Developer Intern",
+    "description": "Work on UI/UX for a fintech startup.",
+    "skills": ["JavaScript", "React", "CSS"],
+    "duration": 8,
+    "mode": "Remote",
+    "poster": "FinTech Labs",
+    "createdAt": 1720800000000
+  },
+  {
+    "id": "id-2",
+    "title": "Python Data Analyst Project",
+    "description": "Analyze sales data and build dashboards.",
+    "skills": ["Python", "Pandas", "Data Analysis"],
+    "duration": 6,
+    "mode": "Onsite",
+    "poster": "DataWiz",
+    "createdAt": 1720700000000
+  },
+  {
+    "id": "id-3",
+    "title": "Java Backend Internship",
+    "description": "Develop REST APIs for e-commerce.",
+    "skills": ["Java", "Spring", "SQL"],
+    "duration": 10,
+    "mode": "Remote",
+    "poster": "ShopEase",
+    "createdAt": 1720600000000
+  }
+]
