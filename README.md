@@ -32,12 +32,13 @@ interncrate/
 ├── listings.html # Internship listings
 └── post.html # Internship details page
 
+---
+
 ## 📌 Use Cases / Ideas
 
 - 👨‍💼 Personal Portfolio Add-on  
 - 🏫 College Internship Portal (Static Version)  
-- 🧪 Testing UI for Backend APIs  
-- 🖥️ Resume booster project
+
 
 ---
 
